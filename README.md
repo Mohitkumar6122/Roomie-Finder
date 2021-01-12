@@ -11,7 +11,7 @@ a location where you want to store the files and follow the following steps.
 ```
     mkdir Projects
     cd Projects
-    git clone 
+    git clone https://github.com/Mohitkumar6122/Roomie-Finder
     python3 -m venv virtenv
     source venv/bin/activate
     pip install -r requirements.txt
