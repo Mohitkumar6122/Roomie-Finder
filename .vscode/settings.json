@@ -1,0 +1,6 @@
+{
+  "python.formatting.provider": "autopep8",
+  "editor.formatOnPaste": false,
+  "editor.formatOnSaveMode": "file",
+  "python.pythonPath": "virtenv\\Scripts\\python.exe"
+}

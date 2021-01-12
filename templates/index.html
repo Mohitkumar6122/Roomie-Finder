@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style type="text/css">
+    body,
+    html {
+      border: medium;
+      margin-left: 0;
+      font-size: large;
+      font-style: italic;
+      font-weight: 600;
+      font-family: cursive;
+      background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/108129-light-blue-wave.jpg?w=800&q=95');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%
+    }
+
+    ul {
+      list-style-type: none;
+      margin-left: 100px;
+      padding-left: 20%;
+      margin-top: 0%;
+      overflow: hidden;
+      font-family: cursive;
+    }
+
+
+    li {
+      float: left;
+      display: block;
+      color: darkslategray;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    a {
+      position: relative;
+      text-align: center;
+      left: 125px;
+      display: inline-block;
+      font-size: 1.30em;
+      font-weight: 800;
+      color: royalblue;
+      overflow: hidden;
+      background: linear-gradient(to right, rgb(41, 179, 110), rgb(41, 179, 110) 50%, royalblue 50%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-size: 200% 100%;
+      background-position: 100%;
+      transition: background-position 275ms ease;
+    }
+
+    a:hover {
+      background-position: 0 100%;
+    }
+
+    p {
+      font-family: cursive;
+      text-align: center;
+      font-size: 20px;
+      color: black
+    }
+
+    .btn {
+      position: absolute;
+      font-weight: bold;
+      font-size: xx-large;
+      color: rgb(81, 92, 104);
+      bottom: 8px;
+      right: 16px;
+    }
+  </style>
+  <title></title>
+</head>
+
+<body>
+  <h1 align="center" style="color:blue "><u> NIT HAMIRPUR HOSTEL ROOMATE SEARCH </h1></u>
+  <p>This Web App features the roommate search.<br>You just have to Fill out a simple form and you will be prompted
+    with the perfect match according to your preferences!</p>
+  <ul>
+    <li>
+    <li>
+    <li>
+
+    <li><a href="{{url_for('form')}}">Find your ideal roommate here </a> </li>
+
+    </li>
+    </li>
+    </li>
+  </ul>
+  <div
+    style="position: absolute; bottom: 0; right: 150px;font-weight: bold; font-size: x-large; color: rgb(81, 92, 104);">
+    <a href="{{url_for('about')}}"> About Me</a>
+  </div>
+
+</body>
+
+</html>

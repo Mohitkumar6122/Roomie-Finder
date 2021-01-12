@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+    body,
+    html {
+      border: medium;
+      margin-left: 0;
+      font-size: large;
+      font-style: italic;
+      font-weight: 600;
+      font-family: cursive;
+      background-image: url('https://i2.wp.com/files.123freevectors.com/wp-content/original/108129-light-blue-wave.jpg?w=800&q=95');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%
+    }
+
+    .btn {
+      position: absolute;
+      font-weight: bold;
+      font-size: xx-large;
+      color: rgb(81, 92, 104);
+      bottom: 8px;
+      right: 16px;
+    }
+  </style>
+  <title>Answer</title>
+</head>
+
+<body>
+  <h1>Your Suitable Roommate is Roll No. : {{data}} </h1>
+  <a class="btn" href="{{url_for('index')}}"> Home Page </a>
+</body>
+
+</html>
