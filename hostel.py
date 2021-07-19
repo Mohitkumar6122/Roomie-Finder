@@ -1,7 +1,7 @@
 from flask import Flask, flash, redirect, render_template, request
 
 app = Flask(__name__)
-app.secret_key = 'P\x02_\xb0$.\x1c\xb4\x02:q\x14\x9d\xcf}\r'
+app.secret_key = 'Secret_key'
 data = ""
 
 @app.route("/")
