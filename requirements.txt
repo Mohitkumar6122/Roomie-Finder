@@ -15,7 +15,7 @@ itsdangerous==1.1.0
 jedi==0.18.0
 Jinja2==2.11.3
 jupyter-client==6.1.11
-jupyter-core==4.7.0
+jupyter-core==4.11.2
 MarkupSafe==1.1.1
 parso==0.8.1
 pickleshare==0.7.5
